@@ -1,0 +1,42 @@
+.component1{
+    border: 3px solid wheat;
+    border-radius: 7px;
+    transition: ease-out 3s;
+    /* width: 10px;
+    height: 10px; */
+    margin: 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 9px;
+   
+
+}
+#img1{
+    width: 350px;
+    height: auto;
+
+
+}
+
+#btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 115px;
+    background: none;
+    border: 2px solid white;
+    color: rgb(110, 20, 170);
+    margin-top: 19px;
+    border-radius: 5px;
+    padding: 5px;
+    /* transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; */
+    transition: transform 0.2s ease;
+    cursor: pointer;
+    
+}
+
+#btn:active {
+    transform: scale(0.95);
+  }
